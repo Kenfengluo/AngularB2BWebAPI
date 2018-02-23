@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "APM.client", "..\..\WebSites\APM.client\", "{F80DADFC-E69C-4115-AF7D-D63FE692635E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60251"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\APM.client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60251\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60251"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\APM.client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60251\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60251"
+		SlnRelativePath = "..\..\WebSites\APM.client\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APM.WebAPI", "APM.WebAPI\APM.WebAPI.csproj", "{70AF82A3-93D3-4F46-BA47-718ED27FE6AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80DADFC-E69C-4115-AF7D-D63FE692635E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80DADFC-E69C-4115-AF7D-D63FE692635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80DADFC-E69C-4115-AF7D-D63FE692635E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80DADFC-E69C-4115-AF7D-D63FE692635E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{70AF82A3-93D3-4F46-BA47-718ED27FE6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AF82A3-93D3-4F46-BA47-718ED27FE6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AF82A3-93D3-4F46-BA47-718ED27FE6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AF82A3-93D3-4F46-BA47-718ED27FE6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
